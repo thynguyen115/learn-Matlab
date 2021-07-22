@@ -6,6 +6,9 @@
 - show img:
   + >> imshow(A) %without semicolon
 - size img:
-  + >> size(A) %gives #rows, #cols, #panels (RGB)
+  + >> size(A) %gives #rows, #cols, #panels (RGB) (R = channel 1, G = channel 2, B = channel 3)
 - img processing:
-  + set img to red
+  + set img to red <=> clean blue and green panels 
+    >> R = A; // temporarily save img
+    >> R(:,:,2)=0; // clean green channel
+    >> R(:,:,3)=0; // clean blue channel
