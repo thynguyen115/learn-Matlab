@@ -1,0 +1,11 @@
+- read img: >> A = imread('filename.bmp');
+- flip img:
+  + upside down >> U = flipud(A);
+  + horizontally >> L = fliplr(A);
+  + composition of direction: >> UL = flipud(fliplr(A));
+- show img:
+  + >> imshow(A) %without semicolon
+- size img:
+  + >> size(A) %gives #rows, #cols, #panels (RGB)
+- img processing:
+  + set img to red
