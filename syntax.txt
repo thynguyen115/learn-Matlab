@@ -44,5 +44,11 @@ Note: % is used for a comment
 - log10(n) is for log base 10 ==> >> log10(10) // gives 1
 
 ## User-defined functions:
-
+Home tab > New > Function
+    function [outputArg1, outputArg2] = functionName(inputArg1, inputArg2)
+       %UNTITLED Summary of this function goes here
+       %   Detailed explanation goes here
+    outputArg1 = inputArg1;
+    outputArg2 = inputArg2;
+    end
 
